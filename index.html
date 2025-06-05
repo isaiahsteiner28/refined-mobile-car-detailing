@@ -3,17 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Refined Mobile Car Detailing | Peachtree City, GA</title>
-  <meta name="description" content="Refined Mobile Car Detailing offers expert interior & exterior detailing, ceramic coatings, polishing, clay bar treatments, and stain removal in Peachtree City, GA." />
-  <meta name="keywords" content="Car detailing, mobile detailing, ceramic coating, clay bar, polishing, Peachtree City, Georgia" />
-  <meta name="author" content="Refined Mobile Car Detailing" />
+  <title>Refined Mobile Car Detailing</title>
   <style>
     :root {
       --primary-color: #00eaff;
       --accent-color: #ffffff;
       --background-color: #000000;
-      --footer-color: #0a0a0a;
-      --text-muted: #888888;
     }
 
     body {
@@ -21,64 +16,37 @@
       font-family: Arial, sans-serif;
       background-color: var(--background-color);
       color: var(--accent-color);
-      line-height: 1.6;
     }
 
     header {
-      background-color: var(--footer-color);
+      background-color: #0a0a0a;
       padding: 1rem;
       text-align: center;
     }
 
     header h1 {
       color: var(--primary-color);
-      margin: 0;
-      font-size: 2rem;
+      margin-bottom: 0.5rem;
     }
 
     nav {
       display: flex;
       justify-content: center;
       gap: 2rem;
-      margin: 2rem 0;
-      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      background-color: #111;
+      padding: 0.75rem 0;
     }
 
     nav a {
       color: var(--primary-color);
       text-decoration: none;
       font-weight: bold;
-      font-size: 1.1rem;
-      transition: color 0.3s ease;
-    }
-
-    nav a:hover,
-    nav a:focus {
-      color: #00ffff;
-      outline: none;
     }
 
     section {
-      padding: 2rem 1rem;
-      max-width: 900px;
-      margin: 0 auto;
+      padding: 2rem;
       text-align: center;
-    }
-
-    h2 {
-      margin-top: 0;
-      font-size: 1.8rem;
-      color: var(--primary-color);
-    }
-
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-
-    ul li {
-      margin: 0.5rem 0;
-      font-size: 1.2rem;
     }
 
     .button {
@@ -90,157 +58,115 @@
       border: none;
       border-radius: 8px;
       cursor: pointer;
-      display: inline-block;
-      margin-top: 1rem;
-      transition: background-color 0.3s ease;
-    }
-
-    .button:hover,
-    .button:focus {
-      background-color: #00c5d1;
-      outline: none;
     }
 
     footer {
       text-align: center;
       padding: 1rem;
-      background-color: var(--footer-color);
-      color: var(--text-muted);
-      font-size: 0.9rem;
+      background-color: #0a0a0a;
+      color: #888;
     }
 
     iframe {
       width: 100%;
-      height: 600px;
+      height: 700px;
       border: none;
-      border-radius: 8px;
     }
 
-    /* Contact Form Styling */
-    form {
-      max-width: 500px;
-      margin: 1rem auto 0 auto;
-      text-align: left;
+    ul {
+      list-style: none;
+      padding: 0;
     }
 
-    label {
-      display: block;
-      margin-bottom: 0.3rem;
-      font-weight: bold;
-      color: var(--primary-color);
+    li {
+      margin: 0.5rem 0;
     }
 
-    input[type="text"],
-    input[type="email"],
     textarea {
       width: 100%;
-      padding: 0.6rem;
-      margin-bottom: 1rem;
-      border-radius: 6px;
-      border: 1px solid #444;
-      background-color: #111;
-      color: var(--accent-color);
-      font-size: 1rem;
-      resize: vertical;
-    }
-
-    input[type="submit"] {
-      background-color: var(--primary-color);
-      color: #000;
-      border: none;
-      padding: 0.8rem 1.6rem;
-      font-weight: bold;
-      cursor: pointer;
+      max-width: 600px;
+      padding: 1rem;
       border-radius: 8px;
-      transition: background-color 0.3s ease;
+      border: none;
+      resize: vertical;
+      font-size: 1rem;
+      margin-bottom: 1rem;
     }
 
-    input[type="submit"]:hover,
-    input[type="submit"]:focus {
-      background-color: #00c5d1;
-      outline: none;
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
     }
 
-    /* Responsive */
-    @media (max-width: 600px) {
-      nav {
-        flex-direction: column;
-        gap: 1rem;
-      }
-
-      iframe {
-        height: 400px;
-      }
-
-      section {
-        padding: 1rem;
-      }
+    .gallery img {
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
   </style>
 </head>
 <body>
-  <header role="banner">
+  <header>
     <h1>Refined Mobile Car Detailing</h1>
-    <p>Serving Peachtree City, GA | Call or Text: <a href="tel:3304107696" style="color: var(--primary-color); text-decoration: none;">330-410-7696</a></p>
+    <p>Serving Peachtree City, GA | Call or Text: 330-410-7696</p>
   </header>
 
-  <nav role="navigation" aria-label="Primary navigation">
+  <nav>
     <a href="#home">Home</a>
     <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
     <a href="#book">Book Now</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <main>
-    <section id="home" tabindex="-1">
-      <h2>We Make Your Car Look Its Best</h2>
-      <p>Interior & Exterior Detailing | Ceramic Coatings | Clay Bar | Polishing | Stain & Gunk Removal</p>
-      <a class="button" href="#book">Book Your Appointment</a>
-    </section>
+  <section id="home">
+    <h2>We Make Your Car Look Its Best</h2>
+    <p>Interior & Exterior Detailing | Ceramic Coatings | Clay Bar | Polishing | Stain & Gunk Removal</p>
+    <a class="button" href="#book">Book Your Appointment</a>
+  </section>
 
-    <section id="services" tabindex="-1">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Full Interior Detailing</li>
-        <li>Exterior Wash & Polish</li>
-        <li>Clay Bar Treatment</li>
-        <li>Paint Correction & Ceramic Coating</li>
-        <li>Stain & Gunk Removal</li>
-      </ul>
-    </section>
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Full Interior Detailing</li>
+      <li>Exterior Wash & Polish</li>
+      <li>Clay Bar Treatment</li>
+      <li>Paint Correction & Ceramic Coating</li>
+      <li>Stain & Gunk Removal</li>
+    </ul>
+  </section>
 
-    <section id="book" tabindex="-1">
-      <h2>Book Your Appointment</h2>
-      <p>Select an available time that works best for you using the calendar below:</p>
-      <iframe src="https://calendly.com/isaiahsteiner28/30min" title="Calendly booking calendar" allowfullscreen></iframe>
-    </section>
+  <section id="gallery">
+    <h2>Our Work</h2>
+    <div class="gallery">
+      <img src="images/photo1.jpg" alt="Detailing example 1" />
+      <img src="images/photo2.jpg" alt="Detailing example 2" />
+      <img src="images/photo3.jpg" alt="Detailing example 3" />
+    </div>
+  </section>
 
-    <section id="contact" tabindex="-1">
-      <h2>Contact Us</h2>
-      <p>Phone: <a href="tel:3304107696" style="color: var(--primary-color); text-decoration: none;">330-410-7696</a></p>
-      <p>Email: <a href="mailto:contact@refinedmobiledetailing.com" style="color: var(--primary-color); text-decoration: none;">contact@refinedmobiledetailing.com</a></p>
-      <p>Follow us on social media:
-        <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener" style="color: var(--primary-color);">Instagram</a> | 
-        <a href="https://facebook.com/yourpage" target="_blank" rel="noopener" style="color: var(--primary-color);">Facebook</a>
-      </p>
+  <section id="book">
+    <h2>Book Your Appointment</h2>
+    <p>Please let us know what you’d like done before choosing a time:</p>
+    <form action="https://formsubmit.co/YOUR_EMAIL@gmail.com" method="POST">
+      <textarea name="details" rows="6" placeholder="Tell us what you need (e.g. stain removal, ceramic coating, interior deep clean)..."></textarea>
+      <br/>
+      <button type="submit" class="button">Send Details</button>
+    </form>
+    <p>Then select a time that works best for you using the calendar below:</p>
+    <iframe src="https://calendly.com/isaiahsteiner28/30min" allowfullscreen></iframe>
+  </section>
 
-      <h3>Send Us a Message</h3>
-      <form action="mailto:contact@refinedmobiledetailing.com" method="post" enctype="text/plain" aria-label="Contact form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="Name" placeholder="Your full name" required />
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 330-410-7696</p>
+    <p>Email: YOUR_EMAIL@gmail.com</p>
+    <p>Follow us on social media: [Instagram/Facebook]</p>
+  </section>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="Email" placeholder="your.email@example.com" required />
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="Message" rows="5" placeholder="Write your message here" required></textarea>
-
-        <input type="submit" value="Send Message" />
-      </form>
-    </section>
-  </main>
-
-  <footer role="contentinfo">
+  <footer>
     <p>&copy; 2025 Refined Mobile Car Detailing</p>
   </footer>
 </body>
